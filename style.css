@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  text-align: center;
+  padding: 64px;
+}
+
+.heading {
+  margin-block-end: 34px;
+}
+
+.container {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
+.color {
+  background-color: bisque;
+  border: 1px solid black;
+  flex: 1;
+  position: relative;
+  border-radius: 5px;
+}
+
+.color-value {
+  padding: 8px 16px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.copy-btn {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-inline-start: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.generate {
+  margin-block-start: 24px;
+  padding: 16px 42px;
+  font-size: 24px;
+  background-color: rgb(255, 210, 142);
+  cursor: pointer;
+  border-radius: 10px;
+}
